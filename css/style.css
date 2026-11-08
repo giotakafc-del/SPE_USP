@@ -1996,3 +1996,6 @@ html { scroll-padding-top: 120px; }
 
 /* Imagem principal cobre o banner sem expor uma faixa na base. */
 .hero__arte { transform: translate(-50%, -50%); }
+
+/* Depoimentos do Alumni alinhados a esquerda em todas as telas. */
+.alumni .depoimento__texto, .alumni .depoimento__texto p { text-align: left; }
