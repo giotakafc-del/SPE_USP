@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Petrogames · SPE USP Student Chapter</title>
+
+  <meta name="description" content="Edições do Petrogames disputadas pela equipe do SPE USP Student Chapter.">
+  <link rel="icon" href="img/logo-spe-usp.png" type="image/png">
+
+  <!-- Fontes do Figma: Montserrat (menu e conteúdo) e Raleway (rodapé) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@700&display=swap">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<!-- ======================================================================
+     CABEÇALHO — é igual em todas as páginas. Se mudar o menu aqui, mude
+     também nos outros arquivos .html (no VS Code: Ctrl+Shift+H substitui
+     em todos os arquivos de uma vez).
+     ====================================================================== -->
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="index.html" aria-label="SPE USP Student Chapter, página inicial">
+      <img src="img/logo-spe-usp.png" alt="" width="760" height="460">
+    </a>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">
+      <span class="menu-toggle__bar" aria-hidden="true"></span>
+      <span class="sr-only">Abrir menu</span>
+    </button>
+
+    <nav class="site-nav" id="menu-principal" aria-label="Menu principal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="historia.html">História</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="equipe.html">Equipe</a></li>
+        <li><a href="alumni.html">Alumni</a></li>
+        <li><a href="competicoes.html" aria-current="page">Competições</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- ======================================================================
+     PETROGAMES — uma seção por edição (<section class="edicao">).
+     Para uma edição nova: copie uma <section class="edicao"> inteira e cole
+     como a PRIMEIRA (a mais recente fica no topo), troque o ano no id
+     (id="edicao-2027") e acrescente o ano na lista "Edições" logo abaixo.
+     Fotos em img/competicoes/petrogames/.
+     ====================================================================== -->
+<main id="conteudo" class="projeto-pagina petrogames">
+  <div class="projeto-pagina__barra">
+    <a class="voltar" href="competicoes.html">Voltar para Competições</a>
+  </div>
+
+  <header class="projeto-capa">
+    <img src="img/competicoes/petrogames/2026-equipe.jpg" alt="Equipe do SPE USP no Petrogames 2026" style="object-position: 50% 20%;">
+    <div class="projeto-capa__texto">
+      <h1>Petrogames</h1>
+      <p>Competição nacional que desafia estudantes do Brasil todo com perguntas e respostas sobre o universo da Engenharia de Petróleo.</p>
+    </div>
+  </header>
+
+<section class="edicao" id="edicao-2026" aria-labelledby="titulo-2026">
+    <div class="edicao__topo">
+      <h2 class="topico__titulo" id="titulo-2026">Edição 2026</h2>
+    </div>
+
+    <section class="topico topico--lado">
+      <div class="topico__texto topico__painel">
+        <h3 class="topico__titulo">Como foi</h3>
+        <div class="texto">
+          <p>A equipe do SPE USP disputou o Petrogames 2026 em 11 e 12 de abril.</p>
+          <ul class="lista edicao__info">
+            <li><strong>Data:</strong> 11 e 12/04/2026</li>
+            <li><strong>Local:</strong> Rio de Janeiro</li>
+            <li><strong>Equipe:</strong> Danilo Oliveira (capitão), João Pavão, Matheus Santos, Olivier Matheus e Pedro Magno</li>
+            <li><strong>Resultado:</strong> 7º lugar</li>
+          </ul>
+        </div>
+      </div>
+      <div class="topico__fotos">
+        <figure class="foto">
+          <img src="img/competicoes/petrogames/2026-placar.jpg" alt="Primeira rodada" loading="lazy">
+          <figcaption>Primeira rodada</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="topico topico--largo">
+      <h3 class="topico__titulo">Fotos da edição 2026</h3>
+      <!-- Para mais fotos, copie um bloco <figure class="foto"> -->
+      <div class="galeria">
+        <figure class="foto">
+          <img src="img/competicoes/petrogames/2026-grupo.jpg" alt="Capitães dos capítulos participantes" loading="lazy">
+          <figcaption>Capitães dos capítulos participantes</figcaption>
+        </figure>
+        <figure class="foto">
+          <img src="img/competicoes/petrogames/2026-mesa.jpg" alt="Equipe em jogo" loading="lazy">
+          <figcaption>Equipe em jogo</figcaption>
+        </figure>
+        <figure class="foto">
+          <img src="img/competicoes/petrogames/2026-viagem.jpg" alt="Viagem da equipe" loading="lazy">
+          <figcaption>Viagem da equipe</figcaption>
+        </figure>
+      </div>
+    </section>
+  </section>
+
+  <section class="edicao" id="edicao-2024" aria-labelledby="titulo-2024">
+    <div class="edicao__topo">
+      <h2 class="topico__titulo" id="titulo-2024">Edição 2024</h2>
+    </div>
+
+    <section class="topico topico--lado topico--invertido">
+      <div class="topico__texto topico__painel">
+        <h3 class="topico__titulo">Como foi</h3>
+        <div class="texto">
+          <p>A equipe do SPE USP voltou a disputar o Petrogames depois de anos e conquistou o terceiro lugar.</p>
+          <ul class="lista edicao__info">
+            <li><strong>Data:</strong> Abril de 2024</li>
+            <li><strong>Local:</strong> Rio de Janeiro</li>
+            <li><strong>Equipe:</strong> Okhiria Udebuhulu, Amin Izadpanahi, Norah Ordonez e Carlos</li>
+            <li><strong>Resultado:</strong> 3º lugar</li>
+          </ul>
+        </div>
+      </div>
+      <div class="topico__fotos">
+        <figure class="foto">
+          <img src="img/competicoes/petrogames/2024-placar.jpg" alt="Primeira rodada" loading="lazy">
+          <figcaption>Primeira rodada</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="topico topico--largo">
+      <h3 class="topico__titulo">Fotos da edição 2024</h3>
+      <!-- Para mais fotos, copie um bloco <figure class="foto"> -->
+      <div class="galeria">
+        <figure class="foto">
+          <img src="img/competicoes/petrogames/2024-equipe.jpg" alt="Equipe do capítulo" loading="lazy">
+          <figcaption>Equipe do capítulo</figcaption>
+        </figure>
+        <figure class="foto">
+          <img src="img/competicoes/petrogames/2024-jogo.jpg" alt="Equipe em jogo" loading="lazy">
+          <figcaption>Equipe em jogo</figcaption>
+        </figure>
+        <figure class="foto">
+          <img src="img/competicoes/petrogames/2024-grupo.jpg" alt="Delegação do capítulo" loading="lazy">
+          <figcaption>Delegação do capítulo</figcaption>
+        </figure>
+        <figure class="foto">
+          <img src="img/competicoes/petrogames/2024-equipe-2.jpg" alt="Equipe do capítulo" loading="lazy" style="object-position: 50% 45%;">
+          <figcaption>Equipe do capítulo</figcaption>
+        </figure>
+        <figure class="foto">
+          <img src="img/competicoes/petrogames/2024-equipe-palco.jpg" alt="Equipe no palco" loading="lazy" style="object-position: 50% 45%;">
+          <figcaption>Equipe no palco</figcaption>
+        </figure>
+        <figure class="foto">
+          <img src="img/competicoes/petrogames/2024-selfie.jpg" alt="Bastidores" loading="lazy">
+          <figcaption>Bastidores</figcaption>
+        </figure>
+      </div>
+    </section>
+  </section>
+
+  <nav class="proximos" aria-label="Navegação">
+    <a class="voltar" href="competicoes.html">Voltar para Competições</a>
+    <a class="proximos__seguinte" href="spe-case.html"><small>Conheça também</small><strong>SPE Case 01</strong></a>
+  </nav>
+</main>
+
+<!-- ======================================================================
+     RODAPÉ — igual em todas as páginas
+     ====================================================================== -->
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <a class="site-footer__brand" href="index.html" aria-label="SPE USP Student Chapter, página inicial">
+      <img src="img/logo-spe-usp.png" alt="" width="760" height="460" loading="lazy">
+    </a>
+
+    <div class="site-footer__col">
+      <h2>LINKS</h2>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="historia.html">História</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="equipe.html">Equipe</a></li>
+        <li><a href="alumni.html">Alumni</a></li>
+        <li><a href="competicoes.html">Competições</a></li>
+      </ul>
+    </div>
+
+    <div class="site-footer__col site-footer__col--sobre">
+      <h2>SOBRE</h2>
+      <ul>
+        <li><a href="mailto:speusp@usp.br">speusp@usp.br</a></li>
+      </ul>
+    </div>
+
+    <div class="site-footer__col">
+      <h2>REDES SOCIAIS</h2>
+      <ul class="social">
+        <li><a href="https://www.instagram.com/speusp/" target="_blank" rel="noopener"><img src="img/icones/instagram.png" alt="Instagram do SPE USP" width="140" height="140" loading="lazy"></a></li>
+        <li><a href="https://www.linkedin.com/company/spe-usp-student-chapter" target="_blank" rel="noopener"><img src="img/icones/linkedin.png" alt="LinkedIn do SPE USP" width="140" height="140" loading="lazy"></a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

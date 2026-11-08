@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Equipe · SPE USP Student Chapter</title>
+
+  <meta name="description" content="Conheça a diretoria e as equipes do SPE USP Student Chapter.">
+  <link rel="icon" href="img/logo-spe-usp.png" type="image/png">
+
+  <!-- Fontes do Figma: Montserrat (menu e conteúdo) e Raleway (rodapé) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@700&display=swap">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<!-- ======================================================================
+     CABEÇALHO — é igual em todas as páginas. Se mudar o menu aqui, mude
+     também nos outros arquivos .html (no VS Code: Ctrl+Shift+H substitui
+     em todos os arquivos de uma vez).
+     ====================================================================== -->
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="index.html" aria-label="SPE USP Student Chapter, página inicial">
+      <img src="img/logo-spe-usp.png" alt="" width="760" height="460">
+    </a>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">
+      <span class="menu-toggle__bar" aria-hidden="true"></span>
+      <span class="sr-only">Abrir menu</span>
+    </button>
+
+    <nav class="site-nav" id="menu-principal" aria-label="Menu principal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="historia.html">História</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="equipe.html" aria-current="page">Equipe</a></li>
+        <li><a href="alumni.html">Alumni</a></li>
+        <li><a href="competicoes.html">Competições</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- ======================================================================
+     EQUIPE
+     Cada pessoa é um bloco <li class="pessoa">…</li>. Para adicionar
+     alguém, copie um bloco inteiro e troque foto, nome e cargo.
+     TROCAR FOTO: salve a foto QUADRADA em img/equipe/ (ex.: 560×560, .jpg),
+     com o nome sem acento e sem espaço, e troque o src="…".
+     ====================================================================== -->
+<main id="conteudo" class="equipe">
+  <h1 class="sr-only">Equipe</h1>
+
+    <section class="equipe__grupo" aria-label="Alta diretoria">
+      <h2 class="section-title section-title--escuro">Alta diretoria</h2>
+      <ul class="pessoas pessoas--duas">
+        <li class="pessoa">
+          <img class="pessoa__foto" src="img/equipe/danilo-oliveira.jpg" alt="Danilo Oliveira" width="560" height="560" loading="lazy">
+          <p class="selo"><strong>Danilo Oliveira</strong><span>Presidente</span></p>
+        </li>
+        <li class="pessoa">
+          <img class="pessoa__foto" src="img/equipe/giovanna-kyoopee.jpg" alt="Giovanna Kyoopee" width="560" height="560" loading="lazy">
+          <p class="selo"><strong>Giovanna Kyoopee</strong><span>Vice-Presidente</span></p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="equipe__grupo" aria-label="Marketing">
+      <h2 class="section-title section-title--escuro">Marketing</h2>
+      <ul class="pessoas">
+        <li class="pessoa">
+          <img class="pessoa__foto" src="img/equipe/amanda.jpg" alt="Amanda" width="560" height="560" loading="lazy">
+          <p class="selo"><strong>Amanda</strong><span>Diretora</span></p>
+        </li>
+        <li class="pessoa">
+          <img class="pessoa__foto" src="img/equipe/olivier.jpg" alt="Olivier" width="560" height="560" loading="lazy">
+          <p class="selo"><strong>Olivier</strong><span>Diretor</span></p>
+        </li>
+        <li class="pessoa">
+          <img class="pessoa__foto" src="img/equipe/tamires-brito.jpg" alt="Tamires Brito" width="560" height="560" loading="lazy">
+          <p class="selo"><strong>Tamires Brito</strong><span>Equipe</span></p>
+        </li>
+        <li class="pessoa">
+          <img class="pessoa__foto" src="img/equipe/stephanie.jpg" alt="Stephanie" width="560" height="560" loading="lazy">
+          <p class="selo"><strong>Stephanie</strong><span>Equipe</span></p>
+        </li>
+        <li class="pessoa">
+          <img class="pessoa__foto" src="img/equipe/yarley.jpg" alt="Yarley" width="560" height="560" loading="lazy">
+          <p class="selo"><strong>Yarley</strong><span>Equipe</span></p>
+        </li>
+        <li class="pessoa">
+          <img class="pessoa__foto" src="img/equipe/mariana.jpg" alt="Mariana" width="560" height="560" loading="lazy">
+          <p class="selo"><strong>Mariana</strong><span>Equipe</span></p>
+        </li>
+        <li class="pessoa">
+          <img class="pessoa__foto" src="img/equipe/milena.jpg" alt="Milena" width="560" height="560" loading="lazy">
+          <p class="selo"><strong>Milena</strong><span>Equipe</span></p>
+        </li>
+        <li class="pessoa">
+          <img class="pessoa__foto" src="img/equipe/gustavo-reis.jpg" alt="Gustavo Reis" width="560" height="560" loading="lazy">
+          <p class="selo"><strong>Gustavo Reis</strong><span>Equipe</span></p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="equipe__grupo" aria-label="Eventos">
+      <h2 class="section-title section-title--escuro">Eventos</h2>
+      <ul class="pessoas">
+        <li class="pessoa">
+          <img class="pessoa__foto" src="img/equipe/joao-gabriel.jpg" alt="João Gabriel" width="560" height="560" loading="lazy">
+          <p class="selo"><strong>João Gabriel</strong><span>Diretor</span></p>
+        </li>
+        <li class="pessoa">
+          <img class="pessoa__foto" src="img/equipe/vitor.jpg" alt="Vitor" width="560" height="560" loading="lazy">
+          <p class="selo"><strong>Vitor</strong><span>Equipe</span></p>
+        </li>
+        <li class="pessoa">
+          <img class="pessoa__foto" src="img/equipe/samuel.jpg" alt="Samuel" width="560" height="560" loading="lazy">
+          <p class="selo"><strong>Samuel</strong><span>Equipe</span></p>
+        </li>
+        <li class="pessoa">
+          <img class="pessoa__foto" src="img/equipe/ronathan.jpg" alt="Ronathan" width="560" height="560" loading="lazy">
+          <p class="selo"><strong>Ronathan</strong><span>Equipe</span></p>
+        </li>
+        <li class="pessoa">
+          <img class="pessoa__foto" src="img/equipe/matheus-soares.jpg" alt="Matheus Soares" width="560" height="560" loading="lazy">
+          <p class="selo"><strong>Matheus Soares</strong><span>Equipe</span></p>
+        </li>
+        <li class="pessoa">
+          <img class="pessoa__foto" src="img/equipe/mayara-pereira.jpg" alt="Mayara Pereira" width="560" height="560" loading="lazy">
+          <p class="selo"><strong>Mayara Pereira</strong><span>Equipe</span></p>
+        </li>
+        <li class="pessoa">
+          <img class="pessoa__foto" src="img/equipe/talita-ventura.jpg" alt="Talita Ventura" width="560" height="560" loading="lazy">
+          <p class="selo"><strong>Talita Ventura</strong><span>Equipe</span></p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="equipe__grupo" aria-label="Patrocínio">
+      <h2 class="section-title section-title--escuro">Patrocínio</h2>
+      <ul class="pessoas">
+        <li class="pessoa">
+          <img class="pessoa__foto" src="img/equipe/artur.jpg" alt="Artur" width="560" height="560" loading="lazy">
+          <p class="selo"><strong>Artur</strong><span>Diretor</span></p>
+        </li>
+        <li class="pessoa">
+          <img class="pessoa__foto" src="img/equipe/gabrielle.jpg" alt="Gabrielle" width="560" height="560" loading="lazy">
+          <p class="selo"><strong>Gabrielle</strong><span>Equipe</span></p>
+        </li>
+        <li class="pessoa">
+          <img class="pessoa__foto" src="img/equipe/pedro.jpg" alt="Pedro" width="560" height="560" loading="lazy">
+          <p class="selo"><strong>Pedro</strong><span>Equipe</span></p>
+        </li>
+        <li class="pessoa">
+          <img class="pessoa__foto" src="img/equipe/joao.jpg" alt="João" width="560" height="560" loading="lazy">
+          <p class="selo"><strong>João</strong><span>Equipe</span></p>
+        </li>
+        <li class="pessoa">
+          <img class="pessoa__foto" src="img/equipe/iver-franco.jpg" alt="Iver Franco" width="560" height="560" loading="lazy">
+          <p class="selo"><strong>Iver Franco</strong><span>Equipe</span></p>
+        </li>
+        <li class="pessoa">
+          <img class="pessoa__foto" src="img/equipe/matheus.jpg" alt="Matheus" width="560" height="560" loading="lazy">
+          <p class="selo"><strong>Matheus</strong><span>Equipe</span></p>
+        </li>
+        <li class="pessoa">
+          <img class="pessoa__foto" src="img/equipe/levi.jpg" alt="Levi" width="560" height="560" loading="lazy">
+          <p class="selo"><strong>Levi</strong><span>Equipe</span></p>
+        </li>
+      </ul>
+    </section>
+</main>
+
+<!-- ======================================================================
+     RODAPÉ — igual em todas as páginas
+     ====================================================================== -->
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <a class="site-footer__brand" href="index.html" aria-label="SPE USP Student Chapter, página inicial">
+      <img src="img/logo-spe-usp.png" alt="" width="760" height="460" loading="lazy">
+    </a>
+
+    <div class="site-footer__col">
+      <h2>LINKS</h2>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="historia.html">História</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="equipe.html">Equipe</a></li>
+        <li><a href="alumni.html">Alumni</a></li>
+        <li><a href="competicoes.html">Competições</a></li>
+      </ul>
+    </div>
+
+    <div class="site-footer__col site-footer__col--sobre">
+      <h2>SOBRE</h2>
+      <ul>
+        <li><a href="mailto:speusp@usp.br">speusp@usp.br</a></li>
+      </ul>
+    </div>
+
+    <div class="site-footer__col">
+      <h2>REDES SOCIAIS</h2>
+      <ul class="social">
+        <li><a href="https://www.instagram.com/speusp/" target="_blank" rel="noopener"><img src="img/icones/instagram.png" alt="Instagram do SPE USP" width="140" height="140" loading="lazy"></a></li>
+        <li><a href="https://www.linkedin.com/company/spe-usp-student-chapter" target="_blank" rel="noopener"><img src="img/icones/linkedin.png" alt="LinkedIn do SPE USP" width="140" height="140" loading="lazy"></a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

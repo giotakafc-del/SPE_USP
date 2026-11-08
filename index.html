@@ -1,0 +1,313 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>SPE USP Student Chapter</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+
+  <!--
+  ==========================================================================
+   SITE OFICIAL — SPE USP STUDENT CHAPTER
+  ==========================================================================
+   Páginas:   index.html (Início) · historia.html · projetos.html
+              projeto-*.html (uma página por projeto) · equipe.html
+              alumni.html · competicoes.html · spe-case.html
+   Aparência: css/style.css (cores e fontes no topo)
+   Interação: js/main.js (menu do celular e carrossel)
+   Imagens:   img/ (fotos extraídas do protótipo do Figma)
+
+   Para achar rápido o que falta, use Ctrl+F em cada página:
+     COLE AQUI   → links reais (redes sociais, formulários, LinkedIn)
+     TROCAR FOTO → imagens provisórias
+     PREENCHER   → textos e datas que ainda faltam
+   O LEIA-ME.txt explica as tarefas mais comuns passo a passo.
+  ==========================================================================
+  -->
+
+  <meta name="description" content="SPE USP Student Chapter: capítulo estudantil da Society of Petroleum Engineers na Escola Politécnica da USP.">
+  <link rel="icon" href="img/logo-spe-usp.png" type="image/png">
+
+  <!-- Fontes do Figma: Montserrat (menu e conteúdo) e Raleway (rodapé) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@700&display=swap">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<!-- ======================================================================
+     CABEÇALHO — é igual em todas as páginas. Se mudar o menu aqui, mude
+     também nos outros arquivos .html (no VS Code: Ctrl+Shift+H substitui
+     em todos os arquivos de uma vez).
+     ====================================================================== -->
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="index.html" aria-label="SPE USP Student Chapter, página inicial">
+      <img src="img/logo-spe-usp.png" alt="" width="760" height="460">
+    </a>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">
+      <span class="menu-toggle__bar" aria-hidden="true"></span>
+      <span class="sr-only">Abrir menu</span>
+    </button>
+
+    <nav class="site-nav" id="menu-principal" aria-label="Menu principal">
+      <ul>
+        <li><a href="index.html" aria-current="page">Início</a></li>
+        <li><a href="historia.html">História</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="equipe.html">Equipe</a></li>
+        <li><a href="alumni.html">Alumni</a></li>
+        <li><a href="competicoes.html">Competições</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="conteudo">
+
+  <!-- ====================================================================
+       BANNER PRINCIPAL
+       A foto da indústria recebe um filtro azul semitransparente, e o logo
+       branco fica na frente, no mesmo lugar do logo que já vem na foto.
+       • Força do filtro: no css/style.css, procure "BANNER" e ajuste
+         --hero-veu.
+       • TROCAR FOTO: img/hero-home.jpg (horizontal, 1810×835 ou maior). Se a
+         foto nova vier SEM logo, o logo continua aparecendo sozinho.
+       ==================================================================== -->
+  <section class="hero">
+    <div class="hero__arte">
+      <img class="hero__img" src="img/hero-home.jpg" width="1810" height="835" alt="">
+      <img class="hero__logo" src="img/logo-spe-usp.png" width="760" height="460"
+           alt="SPE International, Universidade de São Paulo, SPE Student Chapter">
+    </div>
+    <h1 class="sr-only">SPE USP Student Chapter</h1>
+  </section>
+
+
+  <!-- ====================================================================
+       SOBRE NÓS
+       ==================================================================== -->
+  <section class="sobre" aria-labelledby="sobre-titulo">
+    <h2 class="section-title" id="sobre-titulo">Sobre nós</h2>
+    <div class="sobre__texto">
+      <p>A SPE USP (Sociedade de Profissionais de Engenharia da Universidade de São Paulo) é uma associação civil sem fins lucrativos, formada por alunos de diversas áreas da engenharia da USP que atua na escola Politécnica desde 2012.</p>
+      <p>Nosso principal objetivo é complementar a formação acadêmica dos membros, conectando-os com o mercado de trabalho e fomentando o desenvolvimento de habilidades essenciais para o sucesso profissional. Atuamos como uma ponte entre a universidade e as empresas, proporcionando experiências práticas e networking de alta qualidade.</p>
+    </div>
+  </section>
+
+
+  <!-- ====================================================================
+       MISSÃO, VISÃO E VALORES
+       No computador: passe o mouse para revelar o texto.
+       No celular ou teclado: ative o título do cartão.
+       ==================================================================== -->
+  <section class="mvv" aria-label="Missão, visão e valores">
+    <ul class="mvv__grid">
+      <li class="mvv__card">
+        <!-- TROCAR FOTO: img/mvv-missao.jpg -->
+        <img src="img/mvv-missao.jpg" alt="" width="1734" height="1340" loading="lazy" style="object-position: 57% 50%;">
+        <div class="mvv__details">
+        <h3><button class="mvv__toggle" type="button" aria-expanded="false">Missão<span class="mvv__hint" aria-hidden="true">+</span></button></h3>
+        <div class="mvv__description">
+        <div>
+          <p>Nossa missão é formar engenheiros líderes e empreendedores, capazes de transformar o futuro da engenharia no Brasil e no mundo. Buscamos inspirar, capacitar e conectar nossos membros, oferecendo oportunidades de crescimento pessoal e profissional que os preparem para os desafios do mercado.</p>
+        </div>
+      </div>
+      </div>
+      </li>
+
+      <li class="mvv__card">
+        <!-- TROCAR FOTO: img/mvv-visao.jpg -->
+        <img src="img/mvv-visao.jpg" alt="" width="980" height="1742" loading="lazy" style="object-position: 50% 96%;">
+        <div class="mvv__details">
+        <h3><button class="mvv__toggle" type="button" aria-expanded="false">Visão<span class="mvv__hint" aria-hidden="true">+</span></button></h3>
+        <div class="mvv__description">
+        <div>
+          <p>Ser reconhecida como a principal associação estudantil de engenharia da Universidade de São Paulo, referência em formação de líderes e desenvolvimento de projetos inovadores, com impacto positivo na sociedade e no setor produtivo.</p>
+        </div>
+      </div>
+      </div>
+      </li>
+
+      <li class="mvv__card">
+        <!-- TROCAR FOTO: img/mvv-valores.jpg -->
+        <img src="img/mvv-valores.jpg" alt="" width="980" height="1468" loading="lazy" style="object-position: 50% 0%;">
+        <div class="mvv__details">
+        <h3><button class="mvv__toggle" type="button" aria-expanded="false">Valores<span class="mvv__hint" aria-hidden="true">+</span></button></h3>
+        <div class="mvv__description">
+        <div>
+          <p><strong>Excelência:</strong> Buscamos a alta qualidade em tudo que fazemos.</p>
+          <p><strong>Inovação:</strong> Fomentamos a criatividade e a busca por soluções inovadoras.</p>
+          <p><strong>Colaboração:</strong> Acreditamos no poder do trabalho em equipe e da troca de conhecimento.</p>
+          <p><strong>Compromisso:</strong> Somos dedicados aos nossos membros, parceiros e à sociedade.</p>
+          <p><strong>Ética:</strong> Agimos com integridade e transparência em todas as nossas relações.</p>
+        </div>
+      </div>
+      </div>
+      </li>
+    </ul>
+  </section>
+
+
+  <!-- ====================================================================
+       ÚLTIMOS ACONTECIMENTOS (carrossel)
+       Cada slide é um <li class="slide">…</li>.
+       • Para ADICIONAR um acontecimento: copie um <li class="slide"> inteiro
+         e cole como PRIMEIRO da lista (o mais recente aparece primeiro).
+       • Para REMOVER: apague o <li class="slide"> inteiro.
+       As bolinhas de navegação são criadas sozinhas pelo js/main.js.
+       Foto: horizontal, de preferência 1500×1000 ou maior.
+       ==================================================================== -->
+  <section class="acontecimentos" aria-labelledby="acontecimentos-titulo">
+    <h2 class="section-title" id="acontecimentos-titulo">Últimos acontecimentos</h2>
+
+    <div class="carousel" data-carousel aria-roledescription="carrossel" aria-labelledby="acontecimentos-titulo">
+      <div class="carousel__viewport" tabindex="0" aria-label="Slides; use as setas do teclado para navegar">
+        <ul class="carousel__track">
+
+          <li class="slide" aria-roledescription="slide">
+            <figure class="slide__media">
+              <img src="img/spe-case/apresentacao-final.jpg" alt="" style="object-position: 50% 50%;">
+              <figcaption class="slide__label">Competições</figcaption>
+            </figure>
+            <div class="slide__panel">
+              <p class="slide__chip">24/10/2026</p>
+              <h3 class="slide__title">SPE Case 01</h3>
+              <p class="slide__text">Encerramos a primeira edição do nosso case técnico de Engenharia de Reservatórios. O Time 3 ficou em 1º lugar, com nota final 8,7.</p>
+              <a class="slide__link" href="spe-case.html">Saiba mais</a>
+            </div>
+          </li>
+          <li class="slide" aria-roledescription="slide">
+            <figure class="slide__media">
+              <img src="img/projetos/spe-lectures/afranio-grupo.jpg" alt="" loading="lazy" style="object-position: 50% 50%;">
+              <figcaption class="slide__label">SPE Lectures</figcaption>
+            </figure>
+            <div class="slide__panel">
+              <p class="slide__chip">Mar a jun/2026</p>
+              <h3 class="slide__title">Palestras do semestre</h3>
+              <p class="slide__text">Quatro palestras no primeiro semestre: machine learning, códigos open source na engenharia, modelagem estática e engenharia de reservatórios.</p>
+              <a class="slide__link" href="projeto-spe-lectures.html">Saiba mais</a>
+            </div>
+          </li>
+          <li class="slide" aria-roledescription="slide">
+            <figure class="slide__media">
+              <img src="img/projetos/spe-starting/aula-1.jpg" alt="" loading="lazy" style="object-position: 50% 50%;">
+              <figcaption class="slide__label">SPE Starting</figcaption>
+            </figure>
+            <div class="slide__panel">
+              <p class="slide__chip">Maio/2026</p>
+              <h3 class="slide__title">Nova turma do SPE Starting</h3>
+              <p class="slide__text">Aulas do curso introdutório para novos membros em 07, 11 e 14 de maio, com introdução à indústria de óleo e gás.</p>
+              <a class="slide__link" href="projeto-spe-starting.html">Saiba mais</a>
+            </div>
+          </li>
+          <li class="slide" aria-roledescription="slide">
+            <figure class="slide__media">
+              <img src="img/projetos/energy4me/etec-1.jpg" alt="" loading="lazy" style="object-position: 50% 70%;">
+              <figcaption class="slide__label">SPE Energy4me</figcaption>
+            </figure>
+            <div class="slide__panel">
+              <p class="slide__chip">06/05/2026</p>
+              <h3 class="slide__title">Energy4me na ETEC Basilides de Godoy</h3>
+              <p class="slide__text">O capítulo levou o Energy4me, programa de educação sobre energia da SPE, aos alunos da ETEC Basilides de Godoy.</p>
+              <a class="slide__link" href="projeto-energy4me.html">Saiba mais</a>
+            </div>
+          </li>
+          <li class="slide" aria-roledescription="slide">
+            <figure class="slide__media">
+              <img src="img/projetos/integracoes/confraternizacao-2026.jpg" alt="" loading="lazy" style="object-position: 50% 45%;">
+              <figcaption class="slide__label">Integrações</figcaption>
+            </figure>
+            <div class="slide__panel">
+              <p class="slide__chip">30/04/2026</p>
+              <h3 class="slide__title">Confraternização 2026</h3>
+              <p class="slide__text">Membros do capítulo se reuniram na confraternização de 2026.</p>
+              <a class="slide__link" href="projeto-integracoes.html">Saiba mais</a>
+            </div>
+          </li>
+          <li class="slide" aria-roledescription="slide">
+            <figure class="slide__media">
+              <img src="img/competicoes/petrogames/2026-equipe.jpg" alt="" loading="lazy" style="object-position: 50% 50%;">
+              <figcaption class="slide__label">Competições</figcaption>
+            </figure>
+            <div class="slide__panel">
+              <p class="slide__chip">11 e 12/04/2026</p>
+              <h3 class="slide__title">Petrogames 2026</h3>
+              <p class="slide__text">Nossa equipe disputou o Petrogames 2026, competição nacional de perguntas e respostas sobre Engenharia de Petróleo.</p>
+              <a class="slide__link" href="petrogames.html#edicao-2026">Saiba mais</a>
+            </div>
+          </li>
+          <li class="slide" aria-roledescription="slide">
+            <figure class="slide__media">
+              <img src="img/projetos/visitas-tecnicas/prio-grupo.jpg" alt="" loading="lazy" style="object-position: 50% 45%;">
+              <figcaption class="slide__label">Visita técnica</figcaption>
+            </figure>
+            <div class="slide__panel">
+              <p class="slide__chip">10/04/2026</p>
+              <h3 class="slide__title">Visita técnica à PRIO</h3>
+              <p class="slide__text">Membros do capítulo visitaram a PRIO, uma das maiores petroleiras independentes do Brasil.</p>
+              <a class="slide__link" href="projeto-visitas-tecnicas.html">Saiba mais</a>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+
+      <div class="carousel__controls">
+        <button class="carousel__btn" type="button" data-prev aria-label="Acontecimento anterior">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+        </button>
+        <div class="carousel__dots" data-dots role="group" aria-label="Escolher acontecimento"></div>
+        <button class="carousel__btn" type="button" data-next aria-label="Próximo acontecimento">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+        </button>
+        <button class="carousel__pause" type="button" data-pause aria-pressed="false">
+          <svg class="icon-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14M16 5v14"/></svg>
+          <svg class="icon-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5l12 7-12 7z"/></svg>
+          <span data-pause-label>Pausar</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ======================================================================
+     RODAPÉ — igual em todas as páginas
+     ====================================================================== -->
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <a class="site-footer__brand" href="index.html" aria-label="SPE USP Student Chapter, página inicial">
+      <img src="img/logo-spe-usp.png" alt="" width="760" height="460" loading="lazy">
+    </a>
+
+    <div class="site-footer__col">
+      <h2>LINKS</h2>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="historia.html">História</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="equipe.html">Equipe</a></li>
+        <li><a href="alumni.html">Alumni</a></li>
+        <li><a href="competicoes.html">Competições</a></li>
+      </ul>
+    </div>
+
+    <div class="site-footer__col site-footer__col--sobre">
+      <h2>SOBRE</h2>
+      <ul>
+        <li><a href="mailto:speusp@usp.br">speusp@usp.br</a></li>
+      </ul>
+    </div>
+
+    <div class="site-footer__col">
+      <h2>REDES SOCIAIS</h2>
+      <ul class="social">
+        <li><a href="https://www.instagram.com/speusp/" target="_blank" rel="noopener"><img src="img/icones/instagram.png" alt="Instagram do SPE USP" width="140" height="140" loading="lazy"></a></li>
+        <li><a href="https://www.linkedin.com/company/spe-usp-student-chapter" target="_blank" rel="noopener"><img src="img/icones/linkedin.png" alt="LinkedIn do SPE USP" width="140" height="140" loading="lazy"></a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+
+</body></html>

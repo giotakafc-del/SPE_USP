@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+<rect width="1200" height="900" fill="#dfe9ea"/>
+<rect x="24" y="24" width="1152" height="852" fill="none" stroke="#67a7af" stroke-width="6" stroke-dasharray="26 18"/>
+<g fill="none" stroke="#274566" stroke-opacity=".45" stroke-width="14" stroke-linejoin="round">
+<path d="M470 360h60l30-44h80l30 44h60a20 20 0 0 1 20 20v170a20 20 0 0 1-20 20H470a20 20 0 0 1-20-20V380a20 20 0 0 1 20-20z"/>
+<circle cx="600" cy="462" r="58"/></g>
+<text x="600" y="660" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="40" font-weight="700" letter-spacing="4" fill="#274566" fill-opacity=".6">ESPAÇO PARA FOTO</text>
+</svg>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Projetos · SPE USP Student Chapter</title>
+
+  <meta name="description" content="Projetos do SPE USP Student Chapter: SPE CARE, Energy4me, SPE Lectures, SPE Starting, Integrações, Visitas técnicas e Workshop de Petróleo.">
+  <link rel="icon" href="img/logo-spe-usp.png" type="image/png">
+
+  <!-- Fontes do Figma: Montserrat (menu e conteúdo) e Raleway (rodapé) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@700&display=swap">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<!-- ======================================================================
+     CABEÇALHO — é igual em todas as páginas. Se mudar o menu aqui, mude
+     também nos outros arquivos .html (no VS Code: Ctrl+Shift+H substitui
+     em todos os arquivos de uma vez).
+     ====================================================================== -->
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="index.html" aria-label="SPE USP Student Chapter, página inicial">
+      <img src="img/logo-spe-usp.png" alt="" width="760" height="460">
+    </a>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">
+      <span class="menu-toggle__bar" aria-hidden="true"></span>
+      <span class="sr-only">Abrir menu</span>
+    </button>
+
+    <nav class="site-nav" id="menu-principal" aria-label="Menu principal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="historia.html">História</a></li>
+        <li><a href="projetos.html" aria-current="page">Projetos</a></li>
+        <li><a href="equipe.html">Equipe</a></li>
+        <li><a href="alumni.html">Alumni</a></li>
+        <li><a href="competicoes.html">Competições</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- ======================================================================
+     PROJETOS
+     Cada projeto é uma linha (<article class="projeto">) com foto, resumo
+     e o botão "Conhecer mais", que leva à página do projeto
+     (projeto-spe-care.html, projeto-workshop.html etc.).
+     Para um projeto novo: copie um <article> aqui e copie também uma das
+     páginas projeto-*.html, trocando o nome do arquivo e o conteúdo.
+     Alterne projeto--painel-esquerda e projeto--painel-direita para manter
+     o zigue-zague do Figma.
+     ====================================================================== -->
+<main id="conteudo" class="projetos">
+  <h1 class="sr-only">Projetos</h1>
+
+    <article class="projeto projeto--painel-esquerda" aria-label="SPE CARE">
+      <div class="painel">
+        <div class="painel__conteudo">
+          <p>Frente de impacto social do capítulo, com campanhas de doação de sangue e arrecadação de roupas.</p>
+          <a class="botao" href="projeto-spe-care.html">Conhecer mais</a>
+        </div>
+      </div>
+      <figure class="projeto__foto">
+        <!-- TROCAR FOTO: img/projetos/spe-care/sangue-marco.jpg -->
+        <img src="img/projetos/spe-care/sangue-marco.jpg" alt="" loading="lazy" style="object-position: 50% 30%;">
+        <figcaption class="projeto__nome">SPE CARE</figcaption>
+      </figure>
+    </article>
+    <article class="projeto projeto--painel-direita" aria-label="SPE Energy4me">
+      <figure class="projeto__foto">
+        <!-- TROCAR FOTO: img/projetos/energy4me/etec-1.jpg -->
+        <img src="img/projetos/energy4me/etec-1.jpg" alt="" loading="lazy" style="object-position: 50% 70%;">
+        <figcaption class="projeto__nome">SPE Energy4me</figcaption>
+      </figure>
+      <div class="painel">
+        <div class="painel__conteudo">
+          <p>Eventos em escolas com o Energy4me, programa de educação sobre energia da SPE International.</p>
+          <a class="botao" href="projeto-energy4me.html">Conhecer mais</a>
+        </div>
+      </div>
+    </article>
+    <article class="projeto projeto--painel-esquerda" aria-label="SPE Lectures">
+      <div class="painel">
+        <div class="painel__conteudo">
+          <p>Palestras ao menos uma vez por mês, com referências do mercado de petróleo e energia.</p>
+          <a class="botao" href="projeto-spe-lectures.html">Conhecer mais</a>
+        </div>
+      </div>
+      <figure class="projeto__foto">
+        <!-- TROCAR FOTO: img/projetos/spe-lectures/afranio-grupo.jpg -->
+        <img src="img/projetos/spe-lectures/afranio-grupo.jpg" alt="" loading="lazy" style="object-position: 50% 50%;">
+        <figcaption class="projeto__nome">SPE Lectures</figcaption>
+      </figure>
+    </article>
+    <article class="projeto projeto--painel-direita" aria-label="SPE Starting">
+      <figure class="projeto__foto">
+        <!-- TROCAR FOTO: img/projetos/spe-starting/aula-1.jpg -->
+        <img src="img/projetos/spe-starting/aula-1.jpg" alt="" loading="lazy" style="object-position: 50% 50%;">
+        <figcaption class="projeto__nome">SPE Starting</figcaption>
+      </figure>
+      <div class="painel">
+        <div class="painel__conteudo">
+          <p>Curso introdutório do capítulo para novos membros, com aulas sobre a indústria de óleo e gás.</p>
+          <a class="botao" href="projeto-spe-starting.html">Conhecer mais</a>
+        </div>
+      </div>
+    </article>
+    <article class="projeto projeto--painel-esquerda" aria-label="Integrações">
+      <div class="painel">
+        <div class="painel__conteudo">
+          <p>Encontros para aproximar os membros do capítulo, como confraternizações e jogos de integração.</p>
+          <a class="botao" href="projeto-integracoes.html">Conhecer mais</a>
+        </div>
+      </div>
+      <figure class="projeto__foto">
+        <!-- TROCAR FOTO: img/projetos/integracoes/confraternizacao-2026.jpg -->
+        <img src="img/projetos/integracoes/confraternizacao-2026.jpg" alt="" loading="lazy" style="object-position: 50% 45%;">
+        <figcaption class="projeto__nome">Integrações</figcaption>
+      </figure>
+    </article>
+    <article class="projeto projeto--painel-direita" aria-label="Visitas técnicas">
+      <figure class="projeto__foto">
+        <!-- TROCAR FOTO: img/projetos/visitas-tecnicas/prio-grupo.jpg -->
+        <img src="img/projetos/visitas-tecnicas/prio-grupo.jpg" alt="" loading="lazy" style="object-position: 50% 45%;">
+        <figcaption class="projeto__nome">Visitas técnicas</figcaption>
+      </figure>
+      <div class="painel">
+        <div class="painel__conteudo">
+          <p>Visitas a empresas e instituições do setor de energia, como a PRIO, e recepção de estudantes de outras universidades.</p>
+          <a class="botao" href="projeto-visitas-tecnicas.html">Conhecer mais</a>
+        </div>
+      </div>
+    </article>
+    <article class="projeto projeto--painel-esquerda" aria-label="Workshop de Petróleo">
+      <div class="painel">
+        <div class="painel__conteudo">
+          <p>O principal evento do capítulo, com palestras de profissionais da indústria. Chegou à 13ª edição em 2025.</p>
+          <a class="botao" href="projeto-workshop.html">Conhecer mais</a>
+        </div>
+      </div>
+      <figure class="projeto__foto">
+        <!-- TROCAR FOTO: img/projetos/workshop/2024/grupo.jpg -->
+        <img src="img/projetos/workshop/2024/grupo.jpg" alt="" loading="lazy" style="object-position: 50% 40%;">
+        <figcaption class="projeto__nome">Workshop de Petróleo</figcaption>
+      </figure>
+    </article>
+</main>
+
+<!-- ======================================================================
+     RODAPÉ — igual em todas as páginas
+     ====================================================================== -->
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <a class="site-footer__brand" href="index.html" aria-label="SPE USP Student Chapter, página inicial">
+      <img src="img/logo-spe-usp.png" alt="" width="760" height="460" loading="lazy">
+    </a>
+
+    <div class="site-footer__col">
+      <h2>LINKS</h2>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="historia.html">História</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="equipe.html">Equipe</a></li>
+        <li><a href="alumni.html">Alumni</a></li>
+        <li><a href="competicoes.html">Competições</a></li>
+      </ul>
+    </div>
+
+    <div class="site-footer__col site-footer__col--sobre">
+      <h2>SOBRE</h2>
+      <ul>
+        <li><a href="mailto:speusp@usp.br">speusp@usp.br</a></li>
+      </ul>
+    </div>
+
+    <div class="site-footer__col">
+      <h2>REDES SOCIAIS</h2>
+      <ul class="social">
+        <li><a href="https://www.instagram.com/speusp/" target="_blank" rel="noopener"><img src="img/icones/instagram.png" alt="Instagram do SPE USP" width="140" height="140" loading="lazy"></a></li>
+        <li><a href="https://www.linkedin.com/company/spe-usp-student-chapter" target="_blank" rel="noopener"><img src="img/icones/linkedin.png" alt="LinkedIn do SPE USP" width="140" height="140" loading="lazy"></a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

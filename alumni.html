@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Alumni · SPE USP Student Chapter</title>
+
+  <meta name="description" content="Ex-membros do SPE USP Student Chapter e onde estão hoje.">
+  <link rel="icon" href="img/logo-spe-usp.png" type="image/png">
+
+  <!-- Fontes do Figma: Montserrat (menu e conteúdo) e Raleway (rodapé) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@700&display=swap">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<!-- ======================================================================
+     CABEÇALHO — é igual em todas as páginas. Se mudar o menu aqui, mude
+     também nos outros arquivos .html (no VS Code: Ctrl+Shift+H substitui
+     em todos os arquivos de uma vez).
+     ====================================================================== -->
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="index.html" aria-label="SPE USP Student Chapter, página inicial">
+      <img src="img/logo-spe-usp.png" alt="" width="760" height="460">
+    </a>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">
+      <span class="menu-toggle__bar" aria-hidden="true"></span>
+      <span class="sr-only">Abrir menu</span>
+    </button>
+
+    <nav class="site-nav" id="menu-principal" aria-label="Menu principal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="historia.html">História</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="equipe.html">Equipe</a></li>
+        <li><a href="alumni.html" aria-current="page">Alumni</a></li>
+        <li><a href="competicoes.html">Competições</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- ======================================================================
+     ALUMNI (EX-MEMBROS)
+     Duas partes: depoimentos em destaque (<article class="depoimento">)
+     e a grade com os demais ex-membros (<li class="pessoa">).
+     Para adicionar alguém, copie um bloco inteiro.
+     ====================================================================== -->
+<main id="conteudo" class="alumni">
+  <h1 class="section-title alumni__titulo"><span>Ex-membros</span></h1>
+
+  <article class="depoimento">
+    <div class="pessoa">
+      <img class="pessoa__foto" src="img/alumni/victtoria-luiza.jpg" alt="Victtoria Luiza" width="560" height="560">
+      <p class="selo"><strong>Victtoria Luiza</strong><span>Presidente 2020</span></p>
+      <a class="linkedin" href="https://www.linkedin.com/in/victtoria-luiza-portella/" target="_blank" rel="noopener"><img src="img/icones/linkedin.png" alt="LinkedIn de Victtoria Luiza" width="140" height="140" loading="lazy"></a>
+    </div>
+    <div class="depoimento__texto texto">
+      <p>Entrei na SPE em 2019 como diretora de eventos e, em 2020, assumi a presidência do capítulo. Participar do capítulo me ajudou a desenvolver habilidades importantes como trabalho em equipe, organização e liderança, que contribuíram significativamente para minha formação profissional.<br>
+      Atualmente, trabalho como analista de negócios no GPA e carrego comigo toda bagagem do que aprendi durante esse período.</p>
+    </div>
+  </article>
+
+  <article class="depoimento depoimento--centro">
+    <div class="pessoa">
+      <img class="pessoa__foto" src="img/alumni/gabriel-santiago.jpg" alt="Gabriel Santiago" width="560" height="560" loading="lazy">
+      <p class="selo"><strong>Gabriel Santiago</strong><span>Presidente 2023</span></p>
+      <div class="empresas">
+            <h3>Empresas</h3>
+            <ul><li>Zurik Advisors</li><li>Kaptas</li><li>Morro Verde</li></ul>
+          </div>
+      <a class="linkedin" href="https://www.linkedin.com/in/gabrielsantiagosantana/" target="_blank" rel="noopener"><img src="img/icones/linkedin.png" alt="LinkedIn de Gabriel Santiago" width="140" height="140" loading="lazy"></a>
+    </div>
+    <div class="depoimento__texto texto">
+      <p>A SPE me ensinou muitas coisas no decorrer da graduação que vou levar para a vida, organizar minha rotina para fazer as atividades do capítulo estudantil e ainda acompanhar minha graduação.</p>
+    </div>
+  </article>
+
+  <article class="depoimento">
+    <div class="pessoa">
+      <img class="pessoa__foto" src="img/alumni/allan-cavalari.jpg" alt="Allan Cavalari" width="560" height="560" loading="lazy">
+      <p class="selo"><strong>Allan Cavalari</strong><span>Presidente 2022</span></p>
+      <div class="empresas">
+            <h3>Empresas</h3>
+            <ul><li>CCS Brasil</li><li>Thymos Energia</li></ul>
+          </div>
+      <a class="linkedin" href="https://www.linkedin.com/in/cavalari/" target="_blank" rel="noopener"><img src="img/icones/linkedin.png" alt="LinkedIn de Allan Cavalari" width="140" height="140" loading="lazy"></a>
+    </div>
+    <div class="depoimento__texto texto">
+      <p>Na SPE, eu encontrei um dos meios mais importantes para poder construir a minha rede no mercado de petróleo e energia. Como é sabido, trata-se de um mercado donde os profissionais são nichados, ou seja, onde eles estão sempre se mutuamente distribuindo informações, experiências e oportunidades. E a participação na SPE é ter acesso a esse ambiente e poder se desenvolver dentro dele.</p>
+      <p>Outro ponto super marcante foi o contato com diferentes áreas e perspectiva. A engenharia de petróleo é, em sua essência, interdisciplinar, como o próprio setor de energia. Falamos de um insumo estratégico para o país, cujo entendimento exige uma interação entre profissionais de diferentes formações e expertises, todos em busca de um objetivo comum. Essa experiência é bastante enriquecedora, porque ensina adaptabilidade, versatilidade e colaboração.</p>
+      <p>Na SPE, tive a chance de conviver com pessoas diversas, com experiências e visões complementares, que me agregaram bastante do ponto de vista pessoal e profissional. Eu ainda participei de iniciativas para trazer a indústria para dentro da universidade, como é o caso da produção de episódios de podcast com profissionais embarcados, em refinarias e em serviços prestadores para operadoras de petróleo.</p>
+      <p>Encaro a SPE como uma ponte muito importante entre a universidade e o mercado de trabalho real. Ela ajuda torná-la mais didática, mais acessível e mais próxima da realidade da indústria. Esse é o motivo pelo qual digo que quem participa da SPE não perde nada — só ganha, em aprendizado, conexão e oportunidades.</p>
+    </div>
+  </article>
+
+  <ul class="alumni-grade" aria-label="Outros ex-membros">
+      <li class="pessoa">
+          <img class="pessoa__foto" src="img/alumni/norah-ordonez.jpg" alt="Norah Ordonez" width="560" height="560" loading="lazy">
+          <p class="selo"><strong>Norah Ordonez</strong><span>Presidente 2024</span></p>
+          <div class="empresas">
+            <h3>Empresas</h3>
+            <ul><li>SLB</li></ul>
+          </div>
+          <a class="linkedin" href="https://www.linkedin.com/in/norah-arlet-ordonez-zapata/" target="_blank" rel="noopener"><img src="img/icones/linkedin.png" alt="LinkedIn de Norah Ordonez" width="140" height="140" loading="lazy"></a>
+      </li>
+      <li class="pessoa">
+          <img class="pessoa__foto" src="img/alumni/bianca-geranitti.jpg" alt="Bianca Geranitti" width="560" height="560" loading="lazy">
+          <p class="selo"><strong>Bianca Geranitti</strong></p>
+          <div class="empresas">
+            <h3>Empresas</h3>
+            <ul><li>Equinor - Supervisora de Perfuração</li></ul>
+          </div>
+          <a class="linkedin" href="https://www.linkedin.com/in/bianca-geranutti-0849b595/" target="_blank" rel="noopener"><img src="img/icones/linkedin.png" alt="LinkedIn de Bianca Geranitti" width="140" height="140" loading="lazy"></a>
+      </li>
+      <li class="pessoa">
+          <img class="pessoa__foto" src="img/alumni/roberto-shimambuko.jpg" alt="Roberto Shimambuko" width="560" height="560" loading="lazy">
+          <p class="selo"><strong>Roberto Shimambuko</strong><span>Presidente 2022</span></p>
+          <div class="empresas">
+            <h3>Empresas</h3>
+            <ul><li>SBM Offshore - Engenheiro de Manutenção</li></ul>
+          </div>
+          <a class="linkedin" href="https://www.linkedin.com/in/roberto-shimabuko-607579194/" target="_blank" rel="noopener"><img src="img/icones/linkedin.png" alt="LinkedIn de Roberto Shimambuko" width="140" height="140" loading="lazy"></a>
+      </li>
+      <li class="pessoa">
+          <img class="pessoa__foto" src="img/alumni/arthur-henrique.jpg" alt="Arthur Henrique" width="560" height="560" loading="lazy">
+          <p class="selo"><strong>Arthur Henrique</strong></p>
+          <div class="empresas">
+            <h3>Empresas</h3>
+            <ul><li>CGG - Líder de Projetos, Processamento Sísmico</li></ul>
+          </div>
+          <a class="linkedin" href="https://www.linkedin.com/in/arthur-henrique-santos/" target="_blank" rel="noopener"><img src="img/icones/linkedin.png" alt="LinkedIn de Arthur Henrique" width="140" height="140" loading="lazy"></a>
+      </li>
+      <li class="pessoa">
+          <img class="pessoa__foto" src="img/alumni/joao-victor-gois.jpg" alt="João Victor Gois" width="560" height="560" loading="lazy">
+          <p class="selo"><strong>João Victor Gois</strong><span>Presidente 2017</span></p>
+          <div class="empresas">
+            <h3>Empresas</h3>
+            <ul><li>Petrobras - Engenheiro de Petróleo</li></ul>
+          </div>
+          <a class="linkedin" href="https://www.linkedin.com/in/joaovictorgois72/" target="_blank" rel="noopener"><img src="img/icones/linkedin.png" alt="LinkedIn de João Victor Gois" width="140" height="140" loading="lazy"></a>
+      </li>
+      <li class="pessoa">
+          <img class="pessoa__foto" src="img/alumni/luis-gustavo-picolo.jpg" alt="Luís Gustavo Pícolo" width="560" height="560" loading="lazy">
+          <p class="selo"><strong>Luís Gustavo Pícolo</strong></p>
+          <div class="empresas">
+            <h3>Empresas</h3>
+            <ul><li>Halliburton - Consultor de Operações</li></ul>
+          </div>
+          <a class="linkedin" href="https://www.linkedin.com/in/luisgustavopicolo/" target="_blank" rel="noopener"><img src="img/icones/linkedin.png" alt="LinkedIn de Luís Gustavo Pícolo" width="140" height="140" loading="lazy"></a>
+      </li>
+  </ul>
+</main>
+
+<!-- ======================================================================
+     RODAPÉ — igual em todas as páginas
+     ====================================================================== -->
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <a class="site-footer__brand" href="index.html" aria-label="SPE USP Student Chapter, página inicial">
+      <img src="img/logo-spe-usp.png" alt="" width="760" height="460" loading="lazy">
+    </a>
+
+    <div class="site-footer__col">
+      <h2>LINKS</h2>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="historia.html">História</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="equipe.html">Equipe</a></li>
+        <li><a href="alumni.html">Alumni</a></li>
+        <li><a href="competicoes.html">Competições</a></li>
+      </ul>
+    </div>
+
+    <div class="site-footer__col site-footer__col--sobre">
+      <h2>SOBRE</h2>
+      <ul>
+        <li><a href="mailto:speusp@usp.br">speusp@usp.br</a></li>
+      </ul>
+    </div>
+
+    <div class="site-footer__col">
+      <h2>REDES SOCIAIS</h2>
+      <ul class="social">
+        <li><a href="https://www.instagram.com/speusp/" target="_blank" rel="noopener"><img src="img/icones/instagram.png" alt="Instagram do SPE USP" width="140" height="140" loading="lazy"></a></li>
+        <li><a href="https://www.linkedin.com/company/spe-usp-student-chapter" target="_blank" rel="noopener"><img src="img/icones/linkedin.png" alt="LinkedIn do SPE USP" width="140" height="140" loading="lazy"></a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Integrações · SPE USP Student Chapter</title>
+
+  <meta name="description" content="Encontros para aproximar os membros do capítulo, como confraternizações e jogos de integração.">
+  <link rel="icon" href="img/logo-spe-usp.png" type="image/png">
+
+  <!-- Fontes do Figma: Montserrat (menu e conteúdo) e Raleway (rodapé) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@700&display=swap">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<!-- ======================================================================
+     CABEÇALHO — é igual em todas as páginas. Se mudar o menu aqui, mude
+     também nos outros arquivos .html (no VS Code: Ctrl+Shift+H substitui
+     em todos os arquivos de uma vez).
+     ====================================================================== -->
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="index.html" aria-label="SPE USP Student Chapter, página inicial">
+      <img src="img/logo-spe-usp.png" alt="" width="760" height="460">
+    </a>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">
+      <span class="menu-toggle__bar" aria-hidden="true"></span>
+      <span class="sr-only">Abrir menu</span>
+    </button>
+
+    <nav class="site-nav" id="menu-principal" aria-label="Menu principal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="historia.html">História</a></li>
+        <li><a href="projetos.html" aria-current="page">Projetos</a></li>
+        <li><a href="equipe.html">Equipe</a></li>
+        <li><a href="alumni.html">Alumni</a></li>
+        <li><a href="competicoes.html">Competições</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- ======================================================================
+     PROJETO: Integrações
+     A página é dividida em tópicos (<section class="topico">). Para criar
+     um tópico novo, copie um bloco <section> inteiro.
+     Fotos: cada <figure class="foto"> é uma foto. Salve as fotos novas em
+     img/projetos/integracoes/ e use o caminho no src="…".
+     ====================================================================== -->
+<main id="conteudo" class="projeto-pagina">
+  <div class="projeto-pagina__barra">
+    <a class="voltar" href="projetos.html">Voltar para Projetos</a>
+  </div>
+
+  <header class="projeto-capa">
+    <!-- TROCAR FOTO: foto de capa do projeto (horizontal, 1600 px de largura ou mais) -->
+    <img src="img/projetos/integracoes/confraternizacao-2026.jpg" alt="" style="object-position: 50% 45%;">
+    <div class="projeto-capa__texto">
+      <h1>Integrações</h1>
+      <p>Encontros para aproximar os membros do capítulo, como confraternizações e jogos de integração.</p>
+    </div>
+  </header>
+
+    <section class="topico topico--lado">
+      <div class="topico__texto topico__painel">
+        <h2 class="topico__titulo">Sobre o projeto</h2>
+        <div class="texto">
+          <p>Encontros para aproximar os membros do capítulo, como confraternizações e jogos de integração.</p>
+        </div>
+      </div>
+      <div class="topico__fotos">
+        <figure class="foto">
+          <img src="img/projetos/integracoes/confraternizacao-2026.jpg" alt="" loading="lazy">
+        </figure>
+      </div>
+    </section>
+    <section class="topico topico--lado topico--invertido">
+      <div class="topico__texto">
+        <h2 class="topico__titulo">Confraternização 2026</h2>
+        <div class="texto">
+          <p><strong>30/04/2026</strong> · Confraternização dos membros do capítulo.</p>
+        </div>
+      </div>
+      <div class="topico__fotos">
+        <figure class="foto">
+          <img src="img/projetos/integracoes/confraternizacao-2026-2.jpg" alt="" loading="lazy" style="object-position: 50% 35%;">
+        </figure>
+        <figure class="foto">
+          <img src="img/projetos/integracoes/confraternizacao-2026.jpg" alt="" loading="lazy">
+        </figure>
+      </div>
+    </section>
+    <section class="topico topico--lado">
+      <div class="topico__texto">
+        <h2 class="topico__titulo">Beer Game</h2>
+        <div class="texto">
+          <p><strong>02/06/2023</strong> · Evento de integração com o Beer Game, jogo de tabuleiro que simula uma cadeia de suprimentos, com membros e convidados.</p>
+        </div>
+      </div>
+      <div class="topico__fotos">
+        <figure class="foto">
+          <img src="img/projetos/integracoes/beer-game-1.jpg" alt="" loading="lazy">
+        </figure>
+        <figure class="foto">
+          <img src="img/projetos/integracoes/beer-game-3.jpg" alt="" loading="lazy">
+        </figure>
+      </div>
+    </section>
+    <section class="topico topico--largo">
+      <h2 class="topico__titulo">Galeria do Beer Game</h2>
+      <!-- Para mais fotos, copie um bloco <figure class="foto"> -->
+      <div class="galeria">
+        <figure class="foto">
+          <img src="img/projetos/integracoes/beer-game-2.jpg" alt="" loading="lazy">
+        </figure>
+        <figure class="foto">
+          <img src="img/projetos/integracoes/beer-game-4.jpg" alt="" loading="lazy">
+        </figure>
+        <figure class="foto">
+          <img src="img/projetos/integracoes/beer-game-6.jpg" alt="" loading="lazy">
+        </figure>
+      </div>
+    </section>
+
+  <nav class="proximos" aria-label="Navegação entre projetos">
+    <a class="proximos__seguinte proximos__anterior" href="projeto-spe-starting.html"><small>Projeto anterior</small><strong>SPE Starting</strong></a>
+    <a class="proximos__seguinte" href="projeto-visitas-tecnicas.html"><small>Próximo projeto</small><strong>Visitas técnicas</strong></a>
+  </nav>
+</main>
+
+<!-- ======================================================================
+     RODAPÉ — igual em todas as páginas
+     ====================================================================== -->
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <a class="site-footer__brand" href="index.html" aria-label="SPE USP Student Chapter, página inicial">
+      <img src="img/logo-spe-usp.png" alt="" width="760" height="460" loading="lazy">
+    </a>
+
+    <div class="site-footer__col">
+      <h2>LINKS</h2>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="historia.html">História</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="equipe.html">Equipe</a></li>
+        <li><a href="alumni.html">Alumni</a></li>
+        <li><a href="competicoes.html">Competições</a></li>
+      </ul>
+    </div>
+
+    <div class="site-footer__col site-footer__col--sobre">
+      <h2>SOBRE</h2>
+      <ul>
+        <li><a href="mailto:speusp@usp.br">speusp@usp.br</a></li>
+      </ul>
+    </div>
+
+    <div class="site-footer__col">
+      <h2>REDES SOCIAIS</h2>
+      <ul class="social">
+        <li><a href="https://www.instagram.com/speusp/" target="_blank" rel="noopener"><img src="img/icones/instagram.png" alt="Instagram do SPE USP" width="140" height="140" loading="lazy"></a></li>
+        <li><a href="https://www.linkedin.com/company/spe-usp-student-chapter" target="_blank" rel="noopener"><img src="img/icones/linkedin.png" alt="LinkedIn do SPE USP" width="140" height="140" loading="lazy"></a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

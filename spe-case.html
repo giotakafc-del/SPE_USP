@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>SPE Case 01 · SPE USP Student Chapter</title>
+
+  <meta name="description" content="SPE Case 01: competição técnica de Engenharia de Reservatórios sobre o Campo de Namorado, organizada pelo SPE USP Student Chapter.">
+  <link rel="icon" href="img/logo-spe-usp.png" type="image/png">
+
+  <!-- Fontes do Figma: Montserrat (menu e conteúdo) e Raleway (rodapé) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@700&display=swap">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<!-- ======================================================================
+     CABEÇALHO — é igual em todas as páginas. Se mudar o menu aqui, mude
+     também nos outros arquivos .html (no VS Code: Ctrl+Shift+H substitui
+     em todos os arquivos de uma vez).
+     ====================================================================== -->
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="index.html" aria-label="SPE USP Student Chapter, página inicial">
+      <img src="img/logo-spe-usp.png" alt="" width="760" height="460">
+    </a>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">
+      <span class="menu-toggle__bar" aria-hidden="true"></span>
+      <span class="sr-only">Abrir menu</span>
+    </button>
+
+    <nav class="site-nav" id="menu-principal" aria-label="Menu principal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="historia.html">História</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="equipe.html">Equipe</a></li>
+        <li><a href="alumni.html">Alumni</a></li>
+        <li><a href="competicoes.html" aria-current="page">Competições</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- ======================================================================
+     SPE CASE 01
+     Página da primeira edição do case técnico do capítulo.
+     Para uma edição nova, copie este arquivo como spe-case-02.html.
+     As apresentações dos times ficam em docs/spe-case-01/.
+     ====================================================================== -->
+<main id="conteudo" class="case">
+  <div class="case__largura">
+    <h1 class="section-title">SPE Case 01</h1>
+    <div class="case__lead texto"><p>A primeira edição do case técnico do SPE USP Student Chapter. Quatro times estudaram o Campo de Namorado, na Bacia de Campos, e defenderam uma recomendação técnica diante de uma banca de profissionais do mercado.</p></div>
+
+    <figure class="case__capa">
+      <img src="img/spe-case/apresentacao-final.jpg" alt="Apresentação final do SPE Case 01, por videochamada" width="1600" height="631">
+    </figure>
+    <dl class="ficha">
+      <div><dt>Área</dt><dd>Engenharia de Reservatórios</dd></div>
+      <div><dt>Objeto de estudo</dt><dd>Campo de Namorado, Bacia de Campos</dd></div>
+      <div><dt>Trabalho das equipes</dt><dd>21/09 a 18/10/2026</dd></div>
+      <div><dt>Apresentação final</dt><dd>24/10/2026</dd></div>
+    </dl>
+
+    <section class="case__secao" aria-labelledby="sobre-case">
+      <h2 class="section-title" id="sobre-case">Sobre o case</h2>
+      <div class="texto">
+        <p>O SPE Case foi uma competição técnica por equipes, organizada pelo próprio capítulo, na área de Engenharia de Reservatórios. O objeto de estudo foi o Campo de Namorado, descoberto pela Petrobras em 1975 na Bacia de Campos e reconhecido pela ANP como campo escola, com dados públicos muito usados em ensino e pesquisa.</p>
+        <p>Os participantes foram divididos em quatro times, e cada time trabalhou entre 21/09 e 18/10/2026 com dados de perfis de poços, testemunhos, testes de pressão, PVT, mapeamento estrutural e histórico de produção. Não havia roteiro pré-definido: cada time decidiu o que investigar até chegar a uma avaliação integrada do campo.</p>
+        <p>O encerramento foi a apresentação final de 24/10/2026, em formato de pitch de engenharia para a banca. A proposta do case é aproximar os alunos de um problema real da indústria: trabalhar com dados de um campo de verdade, dividir frentes como numa equipe de E&amp;P e defender uma recomendação técnica diante de avaliadores.</p>
+      </div>
+    </section>
+
+    <section class="case__secao" aria-labelledby="ranking">
+      <h2 class="section-title" id="ranking">Ranking final</h2>
+      <!-- A ordem do HTML é 1º, 2º, 3º. -->
+      <ol class="podio">
+        <li><span class="podio__lugar">1º lugar</span><strong>Time 3</strong><span>Nota final 8,7</span></li>
+        <li><span class="podio__lugar">2º lugar</span><strong>Time 2</strong><span>Nota final 8,5</span></li>
+        <li><span class="podio__lugar">3º lugar</span><strong>Time 4</strong><span>Nota final 5,9</span></li>
+      </ol>
+      <h3 class="tabela-titulo">Classificação completa</h3>
+      <div class="tabela-rolagem">
+        <table class="tabela">
+          <thead><tr><th scope="col">Posição</th><th scope="col">Time</th><th scope="col">Material</th><th scope="col">Apresentação</th><th scope="col">Nota final</th></tr></thead>
+          <tbody>
+            <tr><td>1º</td><td>Time 3</td><td>8,9</td><td>8,5</td><td><strong>8,7</strong></td></tr>
+            <tr><td>2º</td><td>Time 2</td><td>8,7</td><td>8,4</td><td><strong>8,5</strong></td></tr>
+            <tr><td>3º</td><td>Time 4</td><td>4,9</td><td>6,6</td><td><strong>5,9</strong></td></tr>
+            <tr><td>4º</td><td>Time 1</td><td>6,6</td><td>1,0</td><td><strong>3,2</strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="tabela-nota">Nota final = 0,6 × nota da apresentação + 0,4 × nota do material entregue.</p>
+    </section>
+
+    <section class="case__secao" aria-labelledby="jurados">
+      <h2 class="section-title" id="jurados">Banca de jurados</h2>
+      <!-- Para cada jurado: foto, nome, cargo e uma mini bio. Copie um <li> para adicionar. -->
+      <ul class="jurados">
+      <li class="pessoa">
+        <img class="pessoa__foto" src="img/spe-case/jurado-guilherme-vigano.jpg" alt="Guilherme Viganô" width="194" height="194" loading="lazy">
+        <p class="selo"><strong>Guilherme Viganô</strong><span>Eng. de reservatórios sênior · BW Energy</span></p>
+        <p class="bio">Engenheiro de reservatórios com experiência em caracterização e simulação de reservatórios, consultoria em otimização da produção de hidrocarbonetos e soluções integradas de escoamento em meios porosos e garantia de escoamento.</p>
+      </li>
+      <li class="pessoa">
+        <img class="pessoa__foto" src="img/spe-case/jurado-jorge-pizarro.jpg" alt="Jorge Pizarro" width="194" height="194" loading="lazy">
+        <p class="selo"><strong>Jorge Pizarro</strong><span>Consultor · Smart Reservoir</span></p>
+        <p class="bio">Especialista em engenharia de petróleo, com mais de 40 anos de experiência em engenharia de reservatórios, planejamento de desenvolvimento de campos, simulação e recuperação avançada. Fundador da Smart Reservoir, é engenheiro civil pela PUC-Rio, mestre pela UNICAMP e doutor pela Universidade do Texas em Austin.</p>
+      </li>
+      <li class="pessoa">
+        <img class="pessoa__foto" src="img/spe-case/jurado-karla-gomes.jpg" alt="Karla Gomes" width="194" height="194" loading="lazy">
+        <p class="selo"><strong>Karla Gomes</strong><span>Coord. de eng. de reservatórios · PPSA</span></p>
+        <p class="bio">Engenheira de reservatórios na PPSA (Pré-Sal Petróleo S.A.), com experiência em simulação e análise de reservatórios, desenvolvimento de campos e planejamento estratégico.</p>
+      </li>
+      </ul>
+    </section>
+
+    <section class="case__secao" aria-labelledby="propostas">
+      <h2 class="section-title" id="propostas">Propostas dos grupos</h2>
+      <!-- Um <article class="proposta"> por time. -->
+      <div class="propostas">
+      <article class="proposta">
+        <p class="selo"><strong>Time 1</strong></p>
+        <p class="proposta__resultado">4º lugar · nota 3,2</p>
+        <h3 class="proposta__titulo">Revitalizar é viável</h3>
+        <p>Quatro poços produtores infill na crista e nos flancos e um upgrade no tratamento e na reinjeção de água. Investimento de US$ 140 milhões, com VPL incremental de US$ 303 milhões, TIR de 42% e payback de 3 anos.</p>
+        <h3>Integrantes</h3>
+        <ul class="proposta__nomes"><li>Amanda</li><li>Davi</li><li>Gabrielle</li><li>Giovanna</li><li>Mariana</li><li>Matheus</li></ul>
+        <a class="botao" href="#apresentacoes" data-ver-time="1">Ver apresentação</a>
+      </article>
+      <article class="proposta">
+        <p class="selo"><strong>Time 2</strong></p>
+        <p class="proposta__resultado">2º lugar · nota 8,5</p>
+        <h3 class="proposta__titulo">EOR por injeção de polímero</h3>
+        <p>Diagnóstico integrado de geologia, petrofísica, volumetria e produção, com proposta de injeção de polímero nos quatro injetores: mais 8,9 milhões de barris até 2025 e ganho de 1,2 ponto percentual no fator de recuperação.</p>
+        <h3>Integrantes</h3>
+        <ul class="proposta__nomes"><li>Danilo</li><li>João Felipe</li><li>Levi</li><li>Samuel</li><li>Tamires</li></ul>
+        <a class="botao" href="#apresentacoes" data-ver-time="2">Ver apresentação</a>
+      </article>
+      <article class="proposta">
+        <p class="selo"><strong>Time 3</strong></p>
+        <p class="proposta__resultado">1º lugar · nota 8,7</p>
+        <h3 class="proposta__titulo">Injeção periférica nos poços secos</h3>
+        <p>Quatro cenários de revitalização simulados no CMG. A conversão dos três poços secos em injetores periféricos, na perna de água, teve o maior retorno, com VPL de cerca de US$ 52 milhões.</p>
+        <h3>Integrantes</h3>
+        <ul class="proposta__nomes"><li>Matheus</li><li>Mayara</li><li>Olivier</li><li>Talita</li><li>Yarley</li></ul>
+        <a class="botao" href="#apresentacoes" data-ver-time="3">Ver apresentação</a>
+      </article>
+      <article class="proposta">
+        <p class="selo"><strong>Time 4</strong></p>
+        <p class="proposta__resultado">3º lugar · nota 5,9</p>
+        <h3 class="proposta__titulo">Reativação com WAG e infill seletivo</h3>
+        <p>Injeção alternada de água e gás (WAG) para manter a pressão acima do ponto de bolha, readequação da malha de injeção e poços infill nos lobos inferiores isolados, onde estariam mais de 150 milhões de barris de óleo móvel.</p>
+        <h3>Integrantes</h3>
+        <ul class="proposta__nomes"><li>Gustavo Reis</li><li>Iver Franco</li><li>Milena</li><li>Ronathan</li><li>Stephanie</li><li>Victor Floriano</li></ul>
+        <a class="botao" href="#apresentacoes" data-ver-time="4">Ver apresentação</a>
+      </article>
+      </div>
+    </section>
+
+    <section class="case__secao" id="apresentacoes" aria-labelledby="apresentacoes-titulo">
+      <h2 class="section-title" id="apresentacoes-titulo">Apresentações dos times</h2>
+      <!-- Os slides são imagens geradas a partir dos PDFs (docs/spe-case-01/).
+           Cada time tem uma pasta em img/spe-case/apresentacoes/time-N/. -->
+      <div class="apres" data-apresentacoes>
+        <div class="apres__abas" role="tablist" aria-label="Escolher time">
+          <button class="apres__aba" type="button" role="tab" id="aba-time-1" aria-controls="apres-time-1" aria-selected="true" data-aba="1">Time 1</button>
+          <button class="apres__aba" type="button" role="tab" id="aba-time-2" aria-controls="apres-time-2" aria-selected="false" data-aba="2">Time 2</button>
+          <button class="apres__aba" type="button" role="tab" id="aba-time-3" aria-controls="apres-time-3" aria-selected="false" data-aba="3">Time 3</button>
+          <button class="apres__aba" type="button" role="tab" id="aba-time-4" aria-controls="apres-time-4" aria-selected="false" data-aba="4">Time 4</button>
+        </div>
+      <div class="apres__painel" role="tabpanel" id="apres-time-1" aria-labelledby="aba-time-1" data-viewer>
+        <ul class="apres__slides" tabindex="0" aria-label="Slides do Time 1; use as setas do teclado para navegar">
+          <li><img src="img/spe-case/apresentacoes/time-1/slide-1.jpg" alt="Time 1, slide 1 de 8"></li>
+          <li><img src="img/spe-case/apresentacoes/time-1/slide-2.jpg" alt="Time 1, slide 2 de 8" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-1/slide-3.jpg" alt="Time 1, slide 3 de 8" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-1/slide-4.jpg" alt="Time 1, slide 4 de 8" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-1/slide-5.jpg" alt="Time 1, slide 5 de 8" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-1/slide-6.jpg" alt="Time 1, slide 6 de 8" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-1/slide-7.jpg" alt="Time 1, slide 7 de 8" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-1/slide-8.jpg" alt="Time 1, slide 8 de 8" loading="lazy"></li>
+        </ul>
+        <div class="apres__controles">
+          <button class="carousel__btn" type="button" data-ant aria-label="Slide anterior"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+          <span class="apres__contador"><span data-atual>1</span> / 8</span>
+          <button class="carousel__btn" type="button" data-prox aria-label="Próximo slide"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+          <a class="apres__baixar" href="docs/spe-case-01/time-1.pdf" target="_blank" rel="noopener">Abrir o PDF</a>
+        </div>
+      </div>
+      <div class="apres__painel" role="tabpanel" id="apres-time-2" aria-labelledby="aba-time-2" data-viewer hidden>
+        <ul class="apres__slides" tabindex="0" aria-label="Slides do Time 2; use as setas do teclado para navegar">
+          <li><img src="img/spe-case/apresentacoes/time-2/slide-01.jpg" alt="Time 2, slide 1 de 32" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-2/slide-02.jpg" alt="Time 2, slide 2 de 32" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-2/slide-03.jpg" alt="Time 2, slide 3 de 32" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-2/slide-04.jpg" alt="Time 2, slide 4 de 32" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-2/slide-05.jpg" alt="Time 2, slide 5 de 32" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-2/slide-06.jpg" alt="Time 2, slide 6 de 32" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-2/slide-07.jpg" alt="Time 2, slide 7 de 32" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-2/slide-08.jpg" alt="Time 2, slide 8 de 32" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-2/slide-09.jpg" alt="Time 2, slide 9 de 32" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-2/slide-10.jpg" alt="Time 2, slide 10 de 32" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-2/slide-11.jpg" alt="Time 2, slide 11 de 32" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-2/slide-12.jpg" alt="Time 2, slide 12 de 32" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-2/slide-13.jpg" alt="Time 2, slide 13 de 32" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-2/slide-14.jpg" alt="Time 2, slide 14 de 32" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-2/slide-15.jpg" alt="Time 2, slide 15 de 32" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-2/slide-16.jpg" alt="Time 2, slide 16 de 32" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-2/slide-17.jpg" alt="Time 2, slide 17 de 32" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-2/slide-18.jpg" alt="Time 2, slide 18 de 32" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-2/slide-19.jpg" alt="Time 2, slide 19 de 32" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-2/slide-20.jpg" alt="Time 2, slide 20 de 32" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-2/slide-21.jpg" alt="Time 2, slide 21 de 32" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-2/slide-22.jpg" alt="Time 2, slide 22 de 32" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-2/slide-23.jpg" alt="Time 2, slide 23 de 32" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-2/slide-24.jpg" alt="Time 2, slide 24 de 32" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-2/slide-25.jpg" alt="Time 2, slide 25 de 32" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-2/slide-26.jpg" alt="Time 2, slide 26 de 32" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-2/slide-27.jpg" alt="Time 2, slide 27 de 32" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-2/slide-28.jpg" alt="Time 2, slide 28 de 32" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-2/slide-29.jpg" alt="Time 2, slide 29 de 32" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-2/slide-30.jpg" alt="Time 2, slide 30 de 32" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-2/slide-31.jpg" alt="Time 2, slide 31 de 32" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-2/slide-32.jpg" alt="Time 2, slide 32 de 32" loading="lazy"></li>
+        </ul>
+        <div class="apres__controles">
+          <button class="carousel__btn" type="button" data-ant aria-label="Slide anterior"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+          <span class="apres__contador"><span data-atual>1</span> / 32</span>
+          <button class="carousel__btn" type="button" data-prox aria-label="Próximo slide"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+          <a class="apres__baixar" href="docs/spe-case-01/time-2.pdf" target="_blank" rel="noopener">Abrir o PDF</a>
+        </div>
+      </div>
+      <div class="apres__painel" role="tabpanel" id="apres-time-3" aria-labelledby="aba-time-3" data-viewer hidden>
+        <ul class="apres__slides" tabindex="0" aria-label="Slides do Time 3; use as setas do teclado para navegar">
+          <li><img src="img/spe-case/apresentacoes/time-3/slide-01.jpg" alt="Time 3, slide 1 de 17" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-3/slide-02.jpg" alt="Time 3, slide 2 de 17" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-3/slide-03.jpg" alt="Time 3, slide 3 de 17" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-3/slide-04.jpg" alt="Time 3, slide 4 de 17" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-3/slide-05.jpg" alt="Time 3, slide 5 de 17" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-3/slide-06.jpg" alt="Time 3, slide 6 de 17" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-3/slide-07.jpg" alt="Time 3, slide 7 de 17" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-3/slide-08.jpg" alt="Time 3, slide 8 de 17" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-3/slide-09.jpg" alt="Time 3, slide 9 de 17" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-3/slide-10.jpg" alt="Time 3, slide 10 de 17" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-3/slide-11.jpg" alt="Time 3, slide 11 de 17" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-3/slide-12.jpg" alt="Time 3, slide 12 de 17" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-3/slide-13.jpg" alt="Time 3, slide 13 de 17" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-3/slide-14.jpg" alt="Time 3, slide 14 de 17" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-3/slide-15.jpg" alt="Time 3, slide 15 de 17" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-3/slide-16.jpg" alt="Time 3, slide 16 de 17" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-3/slide-17.jpg" alt="Time 3, slide 17 de 17" loading="lazy"></li>
+        </ul>
+        <div class="apres__controles">
+          <button class="carousel__btn" type="button" data-ant aria-label="Slide anterior"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+          <span class="apres__contador"><span data-atual>1</span> / 17</span>
+          <button class="carousel__btn" type="button" data-prox aria-label="Próximo slide"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+          <a class="apres__baixar" href="docs/spe-case-01/time-3.pdf" target="_blank" rel="noopener">Abrir o PDF</a>
+        </div>
+      </div>
+      <div class="apres__painel" role="tabpanel" id="apres-time-4" aria-labelledby="aba-time-4" data-viewer hidden>
+        <ul class="apres__slides" tabindex="0" aria-label="Slides do Time 4; use as setas do teclado para navegar">
+          <li><img src="img/spe-case/apresentacoes/time-4/slide-1.jpg" alt="Time 4, slide 1 de 9" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-4/slide-2.jpg" alt="Time 4, slide 2 de 9" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-4/slide-3.jpg" alt="Time 4, slide 3 de 9" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-4/slide-4.jpg" alt="Time 4, slide 4 de 9" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-4/slide-5.jpg" alt="Time 4, slide 5 de 9" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-4/slide-6.jpg" alt="Time 4, slide 6 de 9" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-4/slide-7.jpg" alt="Time 4, slide 7 de 9" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-4/slide-8.jpg" alt="Time 4, slide 8 de 9" loading="lazy"></li>
+          <li><img src="img/spe-case/apresentacoes/time-4/slide-9.jpg" alt="Time 4, slide 9 de 9" loading="lazy"></li>
+        </ul>
+        <div class="apres__controles">
+          <button class="carousel__btn" type="button" data-ant aria-label="Slide anterior"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+          <span class="apres__contador"><span data-atual>1</span> / 9</span>
+          <button class="carousel__btn" type="button" data-prox aria-label="Próximo slide"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+          <a class="apres__baixar" href="docs/spe-case-01/time-4.pdf" target="_blank" rel="noopener">Abrir o PDF</a>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="case__secao" aria-labelledby="aulas">
+      <h2 class="section-title" id="aulas">Histórico de aulas</h2>
+      <div class="texto case__intro-aulas"><p>Aulas online dadas aos participantes durante o case, com profissionais do mercado e da universidade.</p></div>
+      <div class="tabela-rolagem">
+        <table class="tabela">
+          <thead><tr><th scope="col">Data</th><th scope="col">Aula</th><th scope="col">Quem ministrou</th></tr></thead>
+          <tbody>
+            <tr><td>22/09/2026</td><td>Abertura do case</td><td>SPE USP Student Chapter</td></tr>
+            <tr><td>28/09/2026</td><td>Geologia da Bacia de Campos</td><td>Vitor Ferreira, geólogo de reservatórios na PRIO</td></tr>
+            <tr><td>30/09/2026</td><td>Propriedades PVT</td><td>Nara Policarpo, professora da USP</td></tr>
+            <tr><td>07/10/2026</td><td>Comportamento dinâmico e estratégias de recuperação</td><td>Jorge Pizarro, consultor da Smart Reservoir</td></tr>
+            <tr><td>09/10/2026</td><td>Apresentações técnicas</td><td>Karla Gomes, coordenadora de engenharia de reservatórios na PPSA</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 class="tabela-titulo">Fotos das aulas</h3>
+      <div class="galeria galeria--larga">
+        <figure class="foto"><img src="img/spe-case/aula-geologia.jpg" alt="Aula de geologia da Bacia de Campos" loading="lazy"><figcaption>Geologia da Bacia de Campos · Vitor Ferreira</figcaption></figure>
+        <figure class="foto"><img src="img/spe-case/aula-pvt.jpg" alt="Aula de propriedades PVT" loading="lazy"><figcaption>Propriedades PVT · Nara Policarpo</figcaption></figure>
+        <figure class="foto"><img src="img/spe-case/aula-dinamico.jpg" alt="Aula de comportamento dinâmico" loading="lazy"><figcaption>Comportamento dinâmico · Jorge Pizarro</figcaption></figure>
+        <figure class="foto"><img src="img/spe-case/aula-apresentacoes.jpg" alt="Aula de apresentações técnicas" loading="lazy"><figcaption>Apresentações técnicas · Karla Gomes</figcaption></figure>
+        <figure class="foto"><img src="img/spe-case/aula-geologia-2.jpg" alt="Aula de geologia: principais reservatórios da bacia" loading="lazy"><figcaption>Principais reservatórios da Bacia de Campos</figcaption></figure>
+        <figure class="foto"><img src="img/spe-case/aula-participantes.jpg" alt="Participantes do SPE Case em aula online" loading="lazy"><figcaption>Participantes em aula online</figcaption></figure>
+      </div>
+    </section>
+  </div>
+</main>
+
+<!-- ======================================================================
+     RODAPÉ — igual em todas as páginas
+     ====================================================================== -->
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <a class="site-footer__brand" href="index.html" aria-label="SPE USP Student Chapter, página inicial">
+      <img src="img/logo-spe-usp.png" alt="" width="760" height="460" loading="lazy">
+    </a>
+
+    <div class="site-footer__col">
+      <h2>LINKS</h2>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="historia.html">História</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="equipe.html">Equipe</a></li>
+        <li><a href="alumni.html">Alumni</a></li>
+        <li><a href="competicoes.html">Competições</a></li>
+      </ul>
+    </div>
+
+    <div class="site-footer__col site-footer__col--sobre">
+      <h2>SOBRE</h2>
+      <ul>
+        <li><a href="mailto:speusp@usp.br">speusp@usp.br</a></li>
+      </ul>
+    </div>
+
+    <div class="site-footer__col">
+      <h2>REDES SOCIAIS</h2>
+      <ul class="social">
+        <li><a href="https://www.instagram.com/speusp/" target="_blank" rel="noopener"><img src="img/icones/instagram.png" alt="Instagram do SPE USP" width="140" height="140" loading="lazy"></a></li>
+        <li><a href="https://www.linkedin.com/company/spe-usp-student-chapter" target="_blank" rel="noopener"><img src="img/icones/linkedin.png" alt="LinkedIn do SPE USP" width="140" height="140" loading="lazy"></a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

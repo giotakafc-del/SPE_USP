@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Competições · SPE USP Student Chapter</title>
+
+  <meta name="description" content="Competições do SPE USP Student Chapter: Petrogames, Petrobowl, Energython e o SPE Case.">
+  <link rel="icon" href="img/logo-spe-usp.png" type="image/png">
+
+  <!-- Fontes do Figma: Montserrat (menu e conteúdo) e Raleway (rodapé) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@700&display=swap">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<!-- ======================================================================
+     CABEÇALHO — é igual em todas as páginas. Se mudar o menu aqui, mude
+     também nos outros arquivos .html (no VS Code: Ctrl+Shift+H substitui
+     em todos os arquivos de uma vez).
+     ====================================================================== -->
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="index.html" aria-label="SPE USP Student Chapter, página inicial">
+      <img src="img/logo-spe-usp.png" alt="" width="760" height="460">
+    </a>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">
+      <span class="menu-toggle__bar" aria-hidden="true"></span>
+      <span class="sr-only">Abrir menu</span>
+    </button>
+
+    <nav class="site-nav" id="menu-principal" aria-label="Menu principal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="historia.html">História</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="equipe.html">Equipe</a></li>
+        <li><a href="alumni.html">Alumni</a></li>
+        <li><a href="competicoes.html" aria-current="page">Competições</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- ======================================================================
+     COMPETIÇÕES
+     Cada competição é um <article class="competicao">. Para adicionar uma,
+     copie um bloco inteiro. Fotos em img/competicoes/.
+     ====================================================================== -->
+<main id="conteudo" class="competicoes">
+  <h1 class="section-title">Competições</h1>
+
+  <div class="competicoes__lista">
+    <article class="competicao">
+      <h2>Petrogames</h2>
+      <div class="texto"><p>Competição nacional que desafia estudantes do Brasil todo com perguntas e respostas sobre o universo da Engenharia de Petróleo. O capítulo disputou as edições de 2024 e de 2026 (11 e 12 de abril).</p></div>
+      <img class="competicao__foto" src="img/competicoes/petrogames/2026-equipe.jpg" alt="Equipe do SPE USP no Petrogames 2026" loading="lazy">
+      <a class="botao" href="petrogames.html">Ver as edições (2026 e 2024)</a>
+    </article>
+
+    <article class="competicao">
+      <h2>Petrobowl</h2>
+      <div class="texto"><p>Competição internacional que testa o conhecimento dos estudantes sobre assuntos relacionados à Engenharia de Petróleo. Em maio de 2024, o capítulo esteve no PetroBowl Regional Qualifier e no LACSS (Latin America and the Caribbean Student Symposium), no Rio de Janeiro.</p></div>
+      <img class="competicao__foto" src="img/competicoes/petrobowl-2024.jpg" alt="Membros do capítulo no PetroBowl e LACSS 2024" loading="lazy" style="object-position: 50% 35%;">
+    </article>
+
+    <article class="competicao">
+      <h2>Energython</h2>
+      <div class="texto">
+        <p>Competição de energia da SPE para capítulos estudantis da América Latina, Caribe e México. O desafio de 2026 foi montar um modelo técnico-econômico para abastecer um data center de 10 a 20 MW com uma usina a gás natural, cobrindo toda a cadeia: suprimento de gás, geração, contratos e modelo financeiro.</p>
+        <p>O capítulo não avançou à final, mas desenvolveu uma solução focada no Chile, com turbinas a gás em ciclo Brayton e análise do efeito do clima de Santiago na eficiência.</p>
+      </div>
+      <img class="competicao__foto" src="img/competicoes/energython-2026.jpg" alt="Membros do capítulo desenvolvendo a solução do Energython 2026" loading="lazy">
+      <div class="galeria galeria--compacta">
+        <figure class="foto">
+          <img src="img/competicoes/energython/esboco-ciclo.jpg" alt="Esboço do ciclo da usina" loading="lazy">
+          <figcaption>Esboço do ciclo da usina</figcaption>
+        </figure>
+        <figure class="foto">
+          <img src="img/competicoes/energython/diagrama-ts.jpg" alt="Diagrama T-s do ciclo Brayton" loading="lazy">
+          <figcaption>Diagrama T-s do ciclo Brayton</figcaption>
+        </figure>
+        <figure class="foto">
+          <img src="img/competicoes/energython/clima-santiago.jpg" alt="Clima de Santiago e eficiência da turbina" loading="lazy">
+          <figcaption>Clima de Santiago e eficiência da turbina</figcaption>
+        </figure>
+      </div>
+    </article>
+
+    <article class="competicao">
+      <h2>SPE Case</h2>
+      <div class="texto"><p>Competição técnica por equipes organizada pelo próprio capítulo. Na primeira edição, em 2026, quatro times analisaram o Campo de Namorado, na Bacia de Campos, e defenderam uma recomendação técnica diante de uma banca de profissionais do mercado.</p></div>
+      <img class="competicao__foto" src="img/spe-case/apresentacao-final.jpg" alt="Apresentação final do SPE Case 01" loading="lazy">
+      <a class="botao" href="spe-case.html">Ver ranking, jurados e propostas</a>
+    </article>
+  </div>
+
+  <!-- ===== EVOLUÇÃO DOS TREINOS ===== -->
+  <section class="treinos" aria-labelledby="treinos-titulo">
+    <h2 class="section-title" id="treinos-titulo">Evolução dos treinos</h2>
+    <div class="texto"><p>Como o capítulo se prepara para as competições de perguntas e respostas, como o Petrogames.</p></div>
+
+    <!-- Cada fase é um <li class="etapa">. Para registrar uma fase nova, copie um bloco. -->
+    <ol class="etapas">
+      <li class="etapa">
+        <span class="etapa__fase">Fase 1</span>
+        <h3>Banco de questões</h3>
+        <p>Treino com um banco de cerca de 4.300 perguntas e respostas no formato da competição.</p>
+      </li>
+      <li class="etapa">
+        <span class="etapa__fase">Fase 2</span>
+        <h3>Apostilas por frente</h3>
+        <p>Estudo teórico organizado por frentes da indústria, com os termos técnicos em inglês, como na prova.</p>
+        <ul class="tags" aria-label="Frentes">
+          <li>Perfuração</li><li>Completação</li><li>Produção e elevação</li><li>Reservatórios e testes de poço</li><li>Geologia e perfilagem</li>
+        </ul>
+      </li>
+    </ol>
+
+    <h3 class="tabela-titulo">Participações</h3>
+    <!-- Uma linha por participação (mais recente primeiro) -->
+    <div class="tabela-rolagem">
+      <table class="tabela">
+        <thead><tr><th scope="col">Data</th><th scope="col">Competição</th><th scope="col">Resultado</th></tr></thead>
+        <tbody>
+          <tr><td>Maio/2026</td><td>Energython</td><td>Não avançou à final</td></tr>
+          <tr><td>11 e 12/04/2026</td><td><a href="petrogames.html#edicao-2026">Petrogames</a></td><td>7º lugar</td></tr>
+          <tr><td>18 e 19/05/2024</td><td>PetroBowl Regional Qualifier e LACSS</td><td>Participação</td></tr>
+          <tr><td>Abril/2024</td><td><a href="petrogames.html#edicao-2024">Petrogames</a></td><td>3º lugar</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+<!-- ======================================================================
+     RODAPÉ — igual em todas as páginas
+     ====================================================================== -->
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <a class="site-footer__brand" href="index.html" aria-label="SPE USP Student Chapter, página inicial">
+      <img src="img/logo-spe-usp.png" alt="" width="760" height="460" loading="lazy">
+    </a>
+
+    <div class="site-footer__col">
+      <h2>LINKS</h2>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="historia.html">História</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="equipe.html">Equipe</a></li>
+        <li><a href="alumni.html">Alumni</a></li>
+        <li><a href="competicoes.html">Competições</a></li>
+      </ul>
+    </div>
+
+    <div class="site-footer__col site-footer__col--sobre">
+      <h2>SOBRE</h2>
+      <ul>
+        <li><a href="mailto:speusp@usp.br">speusp@usp.br</a></li>
+      </ul>
+    </div>
+
+    <div class="site-footer__col">
+      <h2>REDES SOCIAIS</h2>
+      <ul class="social">
+        <li><a href="https://www.instagram.com/speusp/" target="_blank" rel="noopener"><img src="img/icones/instagram.png" alt="Instagram do SPE USP" width="140" height="140" loading="lazy"></a></li>
+        <li><a href="https://www.linkedin.com/company/spe-usp-student-chapter" target="_blank" rel="noopener"><img src="img/icones/linkedin.png" alt="LinkedIn do SPE USP" width="140" height="140" loading="lazy"></a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
