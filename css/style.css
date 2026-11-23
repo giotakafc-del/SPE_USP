@@ -2005,3 +2005,7 @@ html { scroll-padding-top: 120px; }
 #conteudo > .projeto-capa, #conteudo > .hero { zoom: 1.3333333333; position: relative; left: 50%; transform: translateX(-50%); width: 100vw; max-width: none; margin-inline: 0; }
 .site-footer__inner { zoom: .75; width: min(100vw, 1400px); margin-inline: auto; }
 body { overflow-x: clip; }
+
+/* Competições: figura extra com legenda dentro do card (Switch) */
+.competicao__figura { margin-top: 16px; }
+.competicao__figura img { width: 100%; height: auto; aspect-ratio: auto; object-fit: contain; }
