@@ -2009,3 +2009,6 @@ body { overflow-x: clip; }
 /* Competições: figura extra com legenda dentro do card (Switch) */
 .competicao__figura { margin-top: 16px; }
 .competicao__figura img { width: 100%; height: auto; aspect-ratio: auto; object-fit: contain; }
+
+/* Competicoes: cards mais estreitos no computador (fotos menores) */
+@media (min-width: 761px) { .competicoes__lista { width: min(100%, 960px); } }
